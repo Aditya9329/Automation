@@ -1,0 +1,15 @@
+Wakeup
+Bath
+Walk
+Banana
+Iron
+Office
+SDET
+API
+Tea
+Lunch
+PG
+Dinner
+Insta
+Study
+
