@@ -1,0 +1,34 @@
+Any pytest file must start with  test_
+All test method must start with test_
+Any code must be wrapped in method only.
+
+
+Run command through terminal
+---------------------------------
+if we want to run al lthe test cases present in the dir and file cmd - py.test or py.test -v -s
+run selected files cmd - py.test filename -v -s
+
+- How can i run some testcases from one file and some testcases from another file we can do it by use
+with name contains cmd - py.test -k CreditCard -v -s
+
+
+# -k stands for method names execution, -s logs in output -v stands for info metadata
+# run those testcases which are identifies as smoke we can do this bcz in pytest there is a concept
+of mark with that you can mark that test case name
+@pytest.mark.smoke
+def test_firstProgram():
+    print("Hiii")
+
+
+cmd to run: py.test -m smoke -v -s 
+
+for module based use : -k option
+
+# how to skip some testcases bcz u know there are some bugs
+# i want to run all testcases but not want run 1. 
+
+# if u want to run a testcase but don't want to seein the report that it has passed or fail then use
+ - @pytest.mark.xfail 
+
+
+
