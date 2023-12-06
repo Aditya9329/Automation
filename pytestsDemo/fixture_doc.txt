@@ -1,0 +1,16 @@
+
+
+
+
+
+Instead of defining the test_fixture  in every file we can use the conftest file
+
+Fixtures are used as setup and tear down methods for the test cases - conftest file to genera the Fixtures and 
+make it present at all test cases
+
+
+
+Fixtures also help to load the data.
+
+if you find that a particular fixture is requiredin many file then only use conftest otherwise keeping 
+fixture at same file is ok.
